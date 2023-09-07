@@ -1,0 +1,33 @@
+/* Universal selector */
+* {
+  font-family: "Libre-Baskerville";
+}
+
+/* Element selectors */
+body {
+  background-color: rgb(0, 215, 57);
+}
+
+header,
+footer {
+  width: 100%;
+  height: 100px;
+  line-height: 100px;
+  color: #000000;
+  background-color: #00ff40;
+}
+
+figure {
+  width: 200px;
+  background-color: #30de00;
+}
+
+/* Class selector */
+.highlighted-text {
+  font-weight: bolder;
+}
+
+/* ID selector */
+#contact-section {
+  background-color: #838383;
+}
